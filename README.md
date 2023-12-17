@@ -18,7 +18,7 @@ Install dependencies:
 
 Get the source:
 
-    git clone https://github.com/kushcoin-project/kushcoin.git
+    git clone https://github.com/hanebuechenes/KushCoin.git
 
 To compile `kushcoind` under linux:
 
