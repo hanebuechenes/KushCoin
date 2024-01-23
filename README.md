@@ -35,3 +35,11 @@ See docs/
 
 RPC Port: 31543
 Network Port: 31544
+
+
+=========================================================================================================
+actual situation:
+
+KushCoin will run under ubuntu 16 only. There is a big development hole, what has to be filled, to make it running 
+on actual systems also..
+
