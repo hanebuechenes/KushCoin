@@ -4,7 +4,7 @@ Kushcoin
 Installation from source
 ------------------------
 
-Recommended linux environment, Ubuntu.
+Recommended linux environment, Ubuntu XENIAL (16.04).
 
 Install dependencies:
 
@@ -22,8 +22,14 @@ Get the source:
 
 To compile `kushcoind` under linux:
 
-    cd kushcoin/src/
+    cd KushCoin/src/
     make -f makefile.unix USE_O3=1 USE_ASM=1 USE_LEVELDB=1
+
+Run the binary:
+
+    cd KushCoin
+    ./bin/amd64/kushcoind
+
 
 To compile `kushcoin-qt` under linux
 
@@ -42,4 +48,6 @@ actual situation:
 
 KushCoin will run under ubuntu 16 only. There is a big development hole, what has to be filled, to make it running 
 on actual systems also..
+
+The encluded .bin file is compiled for running on Ubuntu 16.04.
 
